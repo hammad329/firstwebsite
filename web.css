@@ -1,0 +1,137 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e0e0e0;
+    color: #333;
+    padding-top: 70px;
+}
+
+/* Neumorphic Container Style */
+.neu {
+    background: #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 8px 8px 15px #bebebe, -8px -8px 15px #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: #d1d1d1;
+    color: #111;
+}
+
+/* About Section */
+#about h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Courses Section */
+#courses h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#courses h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#courses ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#courses li {
+    background: #e0e0e0;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: inset 5px 5px 10px #bebebe,
+                inset -5px -5px 10px #ffffff;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+    background: #e0e0e0;
+    box-shadow: inset 8px 8px 15px #bebebe, inset -8px -8px 15px #ffffff;
+    color: #555;
+}
+
+footer h4, footer h5 {
+    margin-bottom: 10px;
+}
+
+footer pre {
+    font-family: inherit;
+    font-size: 1rem;
+    color: #444;
+}
+
+footer span {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
