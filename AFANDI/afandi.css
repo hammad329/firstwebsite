@@ -1,0 +1,97 @@
+.css
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FF6A00, #FF1493); /* Bright gradient background */
+    color: #fff;
+    height: 100vh;  /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container Styling */
+form {
+    width: 40%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for form background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 25px;
+}
+
+/* Label Styling */
+label {
+    font-size: 1.2em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input and Select Styling */
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    margin-top: 5px;
+    border: 2px solid #FF1493; /* Pink border for inputs */
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Input and Select Focus Effects */
+input:focus, select:focus {
+    border-color: #FF6A00; /* Change border color to orange on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 106, 0, 0.7); /* Orange glow effect on focus */
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    background: linear-gradient(135deg, #FF1493, #FF6A00); /* Gradient background for button */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.4s ease, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: linear-gradient(135deg, #FF6A00, #FF1493); /* Reverse the gradient on hover */
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 10px 20px rgba(255, 106, 0, 0.5); /* Shadow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 90%;
+    }
+}

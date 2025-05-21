@@ -1,0 +1,46 @@
+.css
+<style>
+body {
+    font-family: arial, sans-serif;
+}
+
+.section {
+    background-color: #7eb868;
+    padding: 20px;
+    border: 5px solid #992b62;
+}
+
+.article {
+    background-color: #4b0d64;
+    margin-top: 10px;
+    padding: 15px;
+    border: 5px rgba(5, 18, 90, 0.438);
+}
+
+.div {
+    background-color: #b8701f;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h6 {
+    color: #249179;
+}
+</style>
+</head>
+<body>
+<header></header>
+<main>
+<section class="section">
+    We are inside the <b>section</b> tag
+    <article class="article">
+        Now we are inside the article tag 
+        <div class="div">
+            <h6>We are in the div</h6>
+        </div>
+    </article>
+</section>
+<footer></footer>
+</main>
+</body>
+</html>
